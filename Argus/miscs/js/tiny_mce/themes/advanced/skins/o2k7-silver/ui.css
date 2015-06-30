@@ -1,0 +1,194 @@
+/* Reset */
+.o2k7-silverSkin table, .o2k7-silverSkin tbody, .o2k7-silverSkin a, .o2k7-silverSkin img, .o2k7-silverSkin tr, .o2k7-silverSkin div, .o2k7-silverSkin td, .o2k7-silverSkin iframe, .o2k7-silverSkin span, .o2k7-silverSkin *, .o2k7-silverSkin .text {border:0; margin:0; padding:0; background:transparent; white-space:nowrap; text-decoration:none; font-weight:normal; cursor:default; color:#000; vertical-align:baseline; width:auto; border-collapse:separate}
+.o2k7-silverSkin a:hover, .o2k7-silverSkin a:link, .o2k7-silverSkin a:visited, .o2k7-silverSkin a:active {text-decoration:none; font-weight:normal; cursor:default; color:#000}
+.o2k7-silverSkin table td {vertical-align:middle}
+
+/* Containers */
+.o2k7-silverSkin {position:relative}
+.o2k7-silverSkin table {background:#eee}
+.o2k7-silverSkin iframe {display:block; background:#fff}
+.o2k7-silverSkin .mceToolbar {height:26px}
+
+/* External */
+.o2k7-silverSkin .mceExternalToolbar {position:absolute; border:1px solid #ccc; border-bottom:0; display:none}
+.o2k7-silverSkin .mceExternalToolbar td.mceToolbar {padding-right:13px;}
+.o2k7-silverSkin .mceExternalClose {position:absolute; top:3px; right:3px; width:7px; height:7px; background:url(../../img/icons.gif) -820px 0}
+
+/* Layout */
+.o2k7-silverSkin table.mceLayout {border:0; border-left:1px solid #ccc; border-right:1px solid #ccc}
+.o2k7-silverSkin table.mceLayout tr.first td {border-top:1px solid #ccc}
+.o2k7-silverSkin table.mceLayout tr.last td {border-bottom:1px solid #ccc}
+.o2k7-silverSkin table.mceToolbar, .o2k7-silverSkin tr.first .mceToolbar tr td, .o2k7-silverSkin tr.last .mceToolbar tr td {border:0; margin:0; padding:0}
+.o2k7-silverSkin .mceIframeContainer {border-top:1px solid #ccc; border-bottom:1px solid #ccc}
+.o2k7-silverSkin .mceStatusbar {display:block; font-family:'MS Sans Serif',sans-serif,Verdana,Arial; font-size:9pt; line-height:16px; overflow:visible; color:#000; height:20px;}
+.o2k7-silverSkin .mceStatusbar div {float:left; padding:2px;}
+.o2k7-silverSkin .mceStatusbar a.resize {display:block; float:right; background:url(../../img/icons.gif) -800px 0; width:20px; height:20px}
+.o2k7-silverSkin .mceStatusbar a:hover {text-decoration:underline}
+.o2k7-silverSkin table.mceToolbar {margin-left:3px}
+.o2k7-silverSkin .mceToolbar .mceToolbarStart span {display:block; background:url(img/button_bg.png) -22px 0; width:1px; height:22px; }
+.o2k7-silverSkin .mceToolbar .mceToolbarEnd span {display:block; background:url(img/button_bg.png) -22px 0; width:1px; height:22px}
+.o2k7-silverSkin .mceToolbar .mceToolbarEndListBox span {display:none}
+.o2k7-silverSkin span.icon, .o2k7-silverSkin img.icon {display:block; width:20px; height:20px}
+.o2k7-silverSkin .icon {background:url(../../img/icons.gif) no-repeat 20px 20px}
+
+/* Button */
+.o2k7-silverSkin .mceButton {display:block; background:url(img/button_bg.png); width:22px; height:22px}
+.o2k7-silverSkin a.mceButton span, .o2k7-silverSkin a.mceButton img {margin-left:1px}
+.o2k7-silverSkin .mceOldBoxModel a.mceButton span, .o2k7-silverSkin .mceOldBoxModel a.mceButton img {margin:0 0 0 1px}
+.o2k7-silverSkin a.mceButtonEnabled:hover {background-color:#B2BBD0; background-position:0 -22px}
+.o2k7-silverSkin a.mceButtonActive, .o2k7-silverSkin a.mceButtonSelected {background-position:0 -44px}
+.o2k7-silverSkin .mceButtonDisabled .icon {opacity:0.3; filter:alpha(opacity=30)}
+
+/* Separator */
+.o2k7-silverSkin .mceSeparator {display:block; background:url(img/button_bg.png) -22px 0; width:5px; height:22px}
+
+/* ListBox */
+.o2k7-silverSkin .mceListBox, .o2k7-silverSkin .mceListBox a {display:block}
+.o2k7-silverSkin .mceListBox .text {padding-left:4px; text-align:left; width:70px; border:1px solid #bbb; border-left: 0; border-right:0; background:#eee; font-family:Tahoma,Verdana,Arial,Helvetica; font-size:11px; height:20px; line-height:20px; overflow:hidden}
+.o2k7-silverSkin .mceListBox .open {width:18px; height:22px; background:url(img/button_bg.png) -66px 0; margin-right:0}
+.o2k7-silverSkin table.mceListBoxEnabled:hover .text, .o2k7-silverSkin .mceListBoxHover .text, .o2k7-silverSkin .mceListBoxSelected .text {background:#FFF}
+.o2k7-silverSkin table.mceListBoxEnabled:hover .open, .o2k7-silverSkin .mceListBoxHover .open, .o2k7-silverSkin .mceListBoxSelected .open {background-position:-66px -22px}
+.o2k7-silverSkin .mceListBoxDisabled .text {color:gray}
+.o2k7-silverSkin .mceListBoxMenu {overflow:auto; overflow-x:hidden}
+.o2k7-silverSkin .mceOldBoxModel .mceListBox .text {height:22px}
+.o2k7-silverSkin select.mceListBox {font-family:Tahoma,Verdana,Arial,Helvetica; font-size:12px; border:1px solid #b3c7e1; background:#FFF;}
+
+/* SplitButton */
+.o2k7-silverSkin .mceSplitButton, .o2k7-silverSkin .mceSplitButton a, .o2k7-silverSkin .mceSplitButton span {display:block; height:22px}
+.o2k7-silverSkin .mceSplitButton {background:url(img/button_bg.png)}
+.o2k7-silverSkin .mceSplitButton a.action {width:22px}
+.o2k7-silverSkin .mceSplitButton span.action {width:22px; background:url(../../img/icons.gif) 20px 20px}
+.o2k7-silverSkin .mceSplitButton a.open {width:10px}
+.o2k7-silverSkin .mceSplitButton span.open {width:10px; background:url(img/button_bg.png) -44px 0}
+.o2k7-silverSkin table.mceSplitButtonEnabled:hover a.action, .o2k7-silverSkin .mceSplitButtonHover a.action, .o2k7-silverSkin .mceSplitButtonSelected {background:url(img/button_bg.png) 0 -22px}
+.o2k7-silverSkin table.mceSplitButtonEnabled:hover span.open, .o2k7-silverSkin .mceSplitButtonHover span.open, .o2k7-silverSkin .mceSplitButtonSelected span.open {background-position:-44px -44px}
+.o2k7-silverSkin .mceSplitButtonDisabled .action {opacity:0.3; filter:alpha(opacity=30)}
+.o2k7-silverSkin .mceSplitButtonActive {background-position:0 -44px}
+
+/* ColorSplitButton */
+.o2k7-silverSkin div.mceColorSplitMenu table {background:#FFF; border:1px solid gray}
+.o2k7-silverSkin .mceColorSplitMenu td {padding:2px}
+.o2k7-silverSkin .mceColorSplitMenu a {display:block; width:9px; height:9px; overflow:hidden; border:1px solid #808080}
+.o2k7-silverSkin .mceColorSplitMenu td.morecolors {padding:1px 3px 1px 1px}
+.o2k7-silverSkin .mceColorSplitMenu a.morecolors {width:100%; height:auto; text-align:center; font-family:Tahoma,Verdana,Arial,Helvetica; font-size:11px; line-height:20px; border:1px solid #FFF}
+.o2k7-silverSkin .mceColorSplitMenu a.morecolors:hover {border:1px solid #808080; background-color:#ffe7a5}
+.o2k7-silverSkin a.mceMoreColors:hover {border:1px solid #0A246A}
+.o2k7-silverSkin .mceColorPreview {position:absolute; top:15px; left:2px; width:16px; height:4px; overflow:hidden}
+
+/* Menu */
+.o2k7-silverSkin .mceMenu {position:absolute; left:0; top:0; z-index:1000; border:1px solid #ccc}
+.o2k7-silverSkin .noIcons span.icon {width:0;}
+.o2k7-silverSkin .noIcons a .text {padding-left:10px}
+.o2k7-silverSkin .mceMenu table {background:#FFF}
+.o2k7-silverSkin .mceMenu a, .o2k7-silverSkin .mceMenu span, .o2k7-silverSkin .mceMenu {display:block}
+.o2k7-silverSkin .mceMenu td {height:20px}
+.o2k7-silverSkin .mceMenu a {position:relative;padding:3px 0 4px 0}
+.o2k7-silverSkin .mceMenu .text {position:relative; display:block; font-family:Tahoma,Verdana,Arial,Helvetica; color:#000; cursor:default; margin:0; padding:0 25px 0 25px; display:block}
+.o2k7-silverSkin .mceMenu span.text, .o2k7-silverSkin .mceMenu .preview {font-size:11px}
+.o2k7-silverSkin .mceMenu pre.text {font-family:Monospace}
+.o2k7-silverSkin .mceMenu .icon {position:absolute; top:0; left:0; width:22px;}
+.o2k7-silverSkin .mceMenu .mceMenuItemEnabled a:hover, .o2k7-silverSkin .mceMenu .mceMenuItemActive {background-color:#ffe7a5}
+.o2k7-silverSkin td.mceMenuItemSeparator {background:#DDD; height:1px}
+.o2k7-silverSkin .mceMenuItemTitle a {border:0; background:#eee; border-bottom:1px solid #ccc}
+.o2k7-silverSkin .mceMenuItemTitle span.text {color:#000; font-weight:bold; padding-left:4px}
+.o2k7-silverSkin .mceMenuItemDisabled .text {color:#888}
+.o2k7-silverSkin .mceMenuItemSelected .icon {background:url(../default/img/menu_check.gif)}
+.o2k7-silverSkin .noIcons .mceMenuItemSelected a {background:url(../default/img/menu_arrow.gif) no-repeat -6px center}
+.o2k7-silverSkin .mceMenu span.mceMenuLine {display:none}
+.o2k7-silverSkin .mceMenuItemSub a {background:url(../default/img/menu_arrow.gif) no-repeat top right;}
+
+/* Progress,Resize */
+.o2k7-silverSkin .mceBlocker {position:absolute; left:0; top:0; z-index:1000; opacity:0.5; filter:alpha(opacity=50); background:#FFF}
+.o2k7-silverSkin .mceProgress {position:absolute; left:0; top:0; z-index:1001; background:url(../default/img/progress.gif) no-repeat; width:32px; height:32px; margin:-16px 0 0 -16px}
+.o2k7-silverSkin .mcePlaceHolder {border:1px dotted gray}
+
+/* Theme */
+.o2k7-silverSkin span.bold {background-position:0 0}
+.o2k7-silverSkin span.italic {background-position:-60px 0}
+.o2k7-silverSkin span.underline {background-position:-140px 0}
+.o2k7-silverSkin span.strikethrough {background-position:-120px 0}
+.o2k7-silverSkin span.undo {background-position:-160px 0}
+.o2k7-silverSkin span.redo {background-position:-100px 0}
+.o2k7-silverSkin span.cleanup {background-position:-40px 0}
+.o2k7-silverSkin span.bullist {background-position:-20px 0}
+.o2k7-silverSkin span.numlist {background-position:-80px 0}
+.o2k7-silverSkin span.justifyleft {background-position:-460px 0}
+.o2k7-silverSkin span.justifyright {background-position:-480px 0}
+.o2k7-silverSkin span.justifycenter {background-position:-420px 0}
+.o2k7-silverSkin span.justifyfull {background-position:-440px 0}
+.o2k7-silverSkin span.anchor {background-position:-200px 0}
+.o2k7-silverSkin span.indent {background-position:-400px 0}
+.o2k7-silverSkin span.outdent {background-position:-540px 0}
+.o2k7-silverSkin span.link {background-position:-500px 0}
+.o2k7-silverSkin span.unlink {background-position:-640px 0}
+.o2k7-silverSkin span.sub {background-position:-600px 0}
+.o2k7-silverSkin span.sup {background-position:-620px 0}
+.o2k7-silverSkin span.removeformat {background-position:-580px 0}
+.o2k7-silverSkin span.newdocument {background-position:-520px 0}
+.o2k7-silverSkin span.image {background-position:-380px 0}
+.o2k7-silverSkin span.help {background-position:-340px 0}
+.o2k7-silverSkin span.code {background-position:-260px 0}
+.o2k7-silverSkin span.hr {background-position:-360px 0}
+.o2k7-silverSkin span.visualaid {background-position:-660px 0}
+.o2k7-silverSkin span.charmap {background-position:-240px 0}
+.o2k7-silverSkin span.paste {background-position:-560px 0}
+.o2k7-silverSkin span.copy {background-position:-700px 0}
+.o2k7-silverSkin span.cut {background-position:-680px 0}
+.o2k7-silverSkin span.blockquote {background-position:-220px 0}
+.o2k7-silverSkin .forecolor span.action {background-position:-720px 0}
+.o2k7-silverSkin .backcolor span.action {background-position:-760px 0}
+.o2k7-silverSkin .forecolorpicker {background-position:-720px 0}
+.o2k7-silverSkin .backcolorpicker {background-position:-760px 0}
+
+/* Plugins */
+.o2k7-silverSkin span.advhr {background-position:-0px -20px}
+.o2k7-silverSkin span.ltr {background-position:-20px -20px}
+.o2k7-silverSkin span.rtl {background-position:-40px -20px}
+.o2k7-silverSkin span.emotions {background-position:-60px -20px}
+.o2k7-silverSkin span.fullpage {background-position:-80px -20px}
+.o2k7-silverSkin span.fullscreen {background-position:-100px -20px}
+.o2k7-silverSkin span.iespell {background-position:-120px -20px}
+.o2k7-silverSkin span.insertdate {background-position:-140px -20px}
+.o2k7-silverSkin span.inserttime {background-position:-160px -20px}
+.o2k7-silverSkin span.absolute {background-position:-180px -20px}
+.o2k7-silverSkin span.backward {background-position:-200px -20px}
+.o2k7-silverSkin span.forward {background-position:-220px -20px}
+.o2k7-silverSkin span.insert_layer {background-position:-240px -20px}
+.o2k7-silverSkin span.insertlayer {background-position:-260px -20px}
+.o2k7-silverSkin span.movebackward {background-position:-280px -20px}
+.o2k7-silverSkin span.moveforward {background-position:-300px -20px}
+.o2k7-silverSkin span.media {background-position:-320px -20px}
+.o2k7-silverSkin span.nonbreaking {background-position:-340px -20px}
+.o2k7-silverSkin span.pastetext {background-position:-360px -20px}
+.o2k7-silverSkin span.pasteword {background-position:-380px -20px}
+.o2k7-silverSkin span.selectall {background-position:-400px -20px}
+.o2k7-silverSkin span.preview {background-position:-420px -20px}
+.o2k7-silverSkin span.print {background-position:-440px -20px}
+.o2k7-silverSkin span.cancel {background-position:-460px -20px}
+.o2k7-silverSkin span.save {background-position:-480px -20px}
+.o2k7-silverSkin span.replace {background-position:-500px -20px}
+.o2k7-silverSkin span.search {background-position:-520px -20px}
+.o2k7-silverSkin span.styleprops {background-position:-560px -20px}
+.o2k7-silverSkin span.table {background-position:-580px -20px}
+.o2k7-silverSkin span.cell_props {background-position:-600px -20px}
+.o2k7-silverSkin span.delete_table {background-position:-620px -20px}
+.o2k7-silverSkin span.delete_col {background-position:-640px -20px}
+.o2k7-silverSkin span.delete_row {background-position:-660px -20px}
+.o2k7-silverSkin span.col_after {background-position:-680px -20px}
+.o2k7-silverSkin span.col_before {background-position:-700px -20px}
+.o2k7-silverSkin span.row_after {background-position:-720px -20px}
+.o2k7-silverSkin span.row_before {background-position:-740px -20px}
+.o2k7-silverSkin span.merge_cells {background-position:-760px -20px}
+.o2k7-silverSkin span.table_props {background-position:-980px -20px}
+.o2k7-silverSkin span.row_props {background-position:-780px -20px}
+.o2k7-silverSkin span.split_cells {background-position:-800px -20px}
+.o2k7-silverSkin span.template {background-position:-820px -20px}
+.o2k7-silverSkin span.visualchars {background-position:-840px -20px}
+.o2k7-silverSkin span.abbr {background-position:-860px -20px}
+.o2k7-silverSkin span.acronym {background-position:-880px -20px}
+.o2k7-silverSkin span.attribs {background-position:-900px -20px}
+.o2k7-silverSkin span.cite {background-position:-920px -20px}
+.o2k7-silverSkin span.del {background-position:-940px -20px}
+.o2k7-silverSkin span.ins {background-position:-960px -20px}
+.o2k7-silverSkin span.pagebreak {background-position:0 -40px}
+.o2k7-silverSkin .spellchecker span.action {background-position:-540px -20px}

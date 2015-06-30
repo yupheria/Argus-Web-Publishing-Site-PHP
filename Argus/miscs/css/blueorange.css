@@ -1,0 +1,344 @@
+/*
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License Modified by ARGUS TEAM
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF url(../Images/BlueOrange/img1.gif) repeat-x;
+	text-align: justify;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #8F8F8F;
+}
+
+select, option {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #8F8F8F;
+}
+
+h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+h2 {
+	letter-spacing: -1px;
+	font-size: 26px;
+	font-weight: normal;
+	color: #31576F;
+}
+
+h2 em {
+	font-weight: bold;
+	font-style: normal;
+}
+
+h3 {
+	height: 25px;
+	background: #0077A7 url(../Images/BlueOrange/img3.gif) repeat-x left bottom;
+	padding: 13px 0 0 20px;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+h3 a {
+	color:#FFFFFF;
+}
+
+p, ol, ul {
+	line-height: 180%;
+}
+
+ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-position: inside;
+}
+
+a {
+	color: #6B6B6B;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.image {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.bg1 {
+	padding: 0 20px 20px 20px;
+	border-top: 1px solid #FFFFFF;
+	background: #FFFFFF url(../Images/BlueOrange/img4.gif) repeat-x;
+}
+
+.bg1 h3 {
+	background:none;
+	color: #31576F;
+	padding:0;
+	height: 20px;
+}
+
+.bg1 h3 a {
+	color: #8F8F8F;
+}
+
+.bg2 {
+	padding: 20px;
+	border-top: 1px solid #CBE1EF;
+	background: #FFFFFF url(../Images/BlueOrange/img4.gif) repeat-x;
+}
+
+.bg2 h3 {
+	background:none;
+	color: #31576F;
+	padding:0;
+}
+
+/* Header */
+
+#header {
+	width: 892px;
+	height: 160px;
+	margin: 0 auto;
+}
+
+#header * {
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+}
+
+#header h1 {
+	position: absolute;
+	top: 1.5em;
+	font-size: 2.5em;
+	letter-spacing: -0.05em;
+	color: #FFFFFF;
+}
+
+#header h2 {
+	position: absolute;
+	font-size: 1em;
+	top: 6.5em;
+	padding-left: 0.1em;
+	letter-spacing: 0;
+	color: #FFFFFF;
+}
+
+#header ul {
+	float: right;
+	margin: 0;
+	padding: 82px 0 0 0;
+	list-style: none;
+}
+
+#header li {
+	display: inline;
+}
+
+#header a {
+	display: block;
+	float: left;
+	height: 25px;
+	margin: 0 0 0 3px;
+	padding: 12px 20px 0 20px;
+	background: #ABBA47 url(../Images/BlueOrange/img2.gif) repeat-x;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Content */
+
+#content {
+	width: 892px;
+	margin: 0 auto;
+}
+
+#colOne {
+	float: right;
+	width: 190px;
+}
+
+#colOne ul {
+	padding-left: 0;
+	list-style: none none outside;
+}
+
+#colOne li {
+	padding: 5px 0;
+	background: url(../Images/BlueOrange/img6.gif) repeat-x;
+}
+
+#colOne li.first {
+	background: none;
+}
+
+#colTwo {
+	float: left;
+	width: 686px;
+	/*font-size: 12px;*/
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	margin: 0 auto;
+	padding: 30px 0;
+	background: url(../Images/BlueOrange/img7.gif) repeat-x
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+/* categories */
+
+#categories ul {
+	list-style-image: url(../Images/BlueOrange/b.gif);
+	padding-left: 1em;
+}
+
+/* search */
+#searchbox input {
+	background:#fff url(../Images/BlueOrange/mg.jpg) right no-repeat;
+	border: 1px solid #ccc;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, sans-serif;
+	font-size: 8pt;
+}
+#noshow {
+	display: none;
+}
+
+/* buttons */
+#submit1 {
+	padding: 3px;
+	background: #ECECEC url(../Images/BlueOrange/img08.gif) repeat-x left bottom;
+	border: none;
+	width: 100px;
+	font-size: 11px;
+	color: #4F4F4F;
+}
+
+#submit2 {
+	padding: 3px;
+	background: #ECECEC url(../Images/BlueOrange/img08.gif) repeat-x left bottom;
+	border: none;
+	width: 200px;
+	font-size: 11px;
+	color: #4F4F4F;
+}
+
+/* text box */
+#textbox {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border: solid 1px #CCCCCC;
+	color: #8F8F8F;
+	width: 600px;
+}
+
+/* tables */
+table {
+	margin-bottom: 1.5em;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+table th {
+	font-weight: bold;
+	padding: 0.5em;
+}
+
+.fix {
+    width:10px;
+}
+
+.action {
+    width: 70px;
+}
+
+.order {
+    width: 50px;
+}
+
+table td {
+	padding: 0.5em;
+	border-right: solid 1px #fff;
+}
+
+table img {
+    border: 0;
+}
+
+#tablePanel {
+	padding:0;
+	margin:0;
+}
+
+/* boxes */
+#box {
+	padding: 5px;
+	border: 1px solid #f2f2f2; 
+	background-color: #FAFAFA; 
+}
+
+#box1 {
+    padding: 5px;
+}
+
+#article h2 {
+	margin-top: 10px;
+	font: Bold 140% Arial;
+	padding: 10px 0 5px 0; 	
+	border-bottom: 1px solid #EFF0F1;
+}
+
+#article h2  a{
+	color: #31576F;
+    text-decoration: none;
+}
+
+/* article */
+#article p {
+	padding: 0; margin: 5px 0 0 25px;
+}
+
+/* footer */
+.post-footer {
+	background-color: #FAFAFA;
+	padding: 5px; margin: 20px 10px 10px 10px;
+	border: 1px solid #f2f2f2;
+	font-size: 95%;	
+}
+
+/* article footer */
+.post-footer .author {
+	background: url(../Images/Default/author.png) no-repeat left center;
+	padding-left: 20px; margin: 0 10px 0 5px;
+}
+.post-footer .date {
+	background: url(../Images/Default/clock.png) no-repeat left center;
+	padding-left: 20px; margin: 0 10px 0 5px;
+}
+.post-footer .comments {
+	background: url(../Images/Default/comment.png) no-repeat left center;
+	padding-left: 20px; margin: 0 10px 0 5px;
+}
+.post-footer .readmore {
+	background: url(../Images/Default/page.png) no-repeat left center;
+	padding-left: 20px; margin: 0 10px 0 5px;
+}
+
+/** select box */
+#position {
+	border: solid 1px #CCCCCC;
+	width: 50px;
+}

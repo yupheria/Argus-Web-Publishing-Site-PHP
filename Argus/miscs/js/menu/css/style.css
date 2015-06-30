@@ -1,0 +1,19 @@
+#Nav li {
+	margin: 1px;	
+	height: 20px;
+}
+
+.Menu {
+    display: none;	
+	margin-top: 0px;
+	margin-left: 98px;
+	width: 100px;
+    background: #fff;
+    border: solid 1px #000;
+    text-decoration: none;
+}
+
+.Menu li {
+    height: 20px;
+    width: 100px;    
+}

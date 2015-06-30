@@ -1,0 +1,396 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #000000 url(../Images/Argus/bgbody.jpg) repeat-x;
+	text-align: justify;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #484848;
+}
+
+select, option {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #888888;
+}
+
+h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+h2 {
+	letter-spacing: -1px;
+	font-size: 26px;
+	font-weight: normal;
+	color: #444444;
+}
+
+h2 em {
+	font-weight: bold;
+	font-style: normal;
+}
+
+h3 {
+	height: 20px;
+	padding: 20px 0 0 20px;
+	font-size: 12px;
+	color: #FFFFFF;
+	background: url(../Images/Argus/bgh3head.jpg) repeat-x left bottom;
+}
+
+h3 a {
+	color:#FFFFFF;
+}
+
+h4 {
+	padding: 30px 0 0 20px;
+	font-size: 12px;
+	color: #FFFFFF;
+	float: left;
+}
+
+p, ol, ul {
+	line-height: 180%;
+}
+
+ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-position: inside;
+}
+
+a {
+	color: #484848;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.image {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.bg1 {
+	padding: 0 20px 20px 20px;
+	border-top: 1px solid #000000;
+	background: #A2EFEF url(../Images/Argus/bgcontentbody.jpg) repeat-x;
+}
+
+.bg1 h3, .bg3 h3 {
+	background:none;
+	color: #31576F;
+	padding:0;
+	height: 20px;
+}
+
+.bg1 h3 a, .bg3 h3 a {
+	color: #8F8F8F;
+}
+
+.bg2 {
+	padding: 20px;
+	background: #5BD2D6 url(../Images/Argus/bgbanner.jpg) repeat-x;
+}
+
+.bg2 h3 {
+	background:none;
+	color: #31576F;
+	padding:0;
+}
+
+.bg3 {
+	padding: 0 20px 20px 20px;
+	border-top: 1px solid #000000;
+	background: #B3E3E6 url(../Images/Argus/bgpanelbody.jpg) repeat-x;
+}
+
+/* Header */
+
+#header {
+	width: 884px;
+	height: 250px;
+	margin: 0 auto;
+	background: url(../Images/Argus/header.jpg);
+}
+
+#header * {
+	margin: 0;
+	padding: 0;
+	color: #FFFFFF;
+}
+
+#header h1 {
+	position: absolute;
+	top: 1.5em;
+	font-size: 3.5em;
+	letter-spacing: 0.1em;
+	color: #C0C0C0;
+}
+
+#header h2 {
+	position: absolute;
+	font-size: 1em;
+	top: 9.5em;
+	padding-left: 0.1em;
+	letter-spacing: 0;
+	color: #C0C0C0
+}
+
+#header ul {
+	float: right;
+	margin: 46px 13px 0 0;
+	padding: 82px 0 0 0;
+	list-style: none;
+}
+
+#header li {
+	display: inline;
+}
+
+#header a {
+	display: block;
+	float: left;
+	padding: 0 2px 0 2px;
+}
+
+#home, #register, #signIn, #profile, #signOut {	
+	height: 101px;
+	width: 70px;
+}
+
+#home {
+	background: url(../Images/Argus/buttonhome.jpg);
+}
+
+#register {
+	background: url(../Images/Argus/buttonreg.jpg);
+}
+
+#signIn {
+	background: url(../Images/Argus/buttonsignin.jpg);
+}
+
+#profile {
+	background: url(../Images/Argus/buttonprof.jpg);
+}
+
+#signOut {
+	background: url(../Images/Argus/buttonsignout.jpg);
+}
+
+/* Content */
+
+#content {
+	width: 892px;
+	margin: 0 auto;
+}
+
+#panelhead {
+	background: url(../Images/Argus/bgpanelhead.jpg) repeat-x left bottom;
+	height: 50px;
+}
+
+#searchIcon, #adminIcon, #staffIcon, #sectionIcon, #calendarIcon {
+	float: right;
+	height: 46px;
+	width: 38px;
+}
+
+#searchIcon {
+	background: url(../Images/Argus/iconsearch.jpg);
+}
+
+#adminIcon {
+	background: url(../Images/Argus/iconadmin.jpg);
+}
+
+#staffIcon {
+	background: url(../Images/Argus/iconstaff.jpg);
+}
+
+#sectionIcon {
+	background: url(../Images/Argus/iconcat.jpg);
+}
+
+#calendarIcon {
+	background: url(../Images/Argus/iconcal.jpg);
+}
+
+#colOne {
+	width: 190px;
+}
+
+#colOne ul {
+	padding-left: 0;
+	list-style: none none outside;
+}
+
+#colOne li {
+	padding: 5px 0;
+	background: url(../Images/Default/divider.gif) repeat-x;
+}
+
+#colOne li.first {
+	background: none;
+}
+
+#colTwo {
+	width: 686px;
+	padding: 22px 0 0 0;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	margin: 0 auto;
+	padding: 30px 0;
+	background: url(../Images/Argus/footer.jpg) repeat-x;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+/* categories */
+
+#categories ul {
+	list-style-image: url(../Images/Default/b.gif);
+	padding-left: 1em;
+}
+
+/* search */
+#searchbox input {
+	background: #FFFFFF url(../Images/Default/mg.jpg) right no-repeat;
+	border-top: solid 1px #F3FBFC;
+	border-right: solid 1px #939B9C;
+	border-bottom: solid 1px #91999A;
+	border-left: solid 1px #F2FBFC;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, sans-serif;
+	font-size: 8pt;
+}
+#noshow {
+	display: none;
+}
+
+/* buttons */
+#submit1 {
+	padding: 3px;
+	background: #ECECEC url(../Images/Argus/bgbutton.jpg) repeat-x left bottom;
+	border: none;
+	width: 120px;
+	font-size: 11px;
+	color: #484848;
+}
+
+#submit2 {
+	padding: 3px;
+	background: #ECECEC url(../Images/Argus/bgbutton.jpg) repeat-x left bottom;
+	border: none;
+	width: 120px;
+	font-size: 11px;
+	color: #484848;
+}
+
+/* text box */
+#textbox {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background: #ECF7D4;
+	border-top: solid 1px #91999A;
+	border-right: solid 1px #F2FBFC;
+	border-bottom: solid 1px #F3FBFC;
+	border-left: solid 1px #939B9C;
+	color: #000000;
+	width: 600px;
+}
+
+/* tables */
+table {
+	margin-bottom: 1.5em;
+	border-collapse: collapse;
+	text-align: left;
+}
+
+table th {
+	font-weight: bold;
+	padding: 0.5em;
+}
+
+table td {
+	padding: 0.5em;
+	border-right: solid 1px #fff;
+}
+
+table img {
+    border: 0;
+}
+
+#tablePanel {
+	padding:0;
+	margin:0;
+}
+
+/* boxes */
+#box {
+	padding: 5px;
+	border: solid 1px #D8F0F1;
+	background: #90D2D5 url(../Images/Argus/bgbox.jpg) repeat-y; 
+}
+
+/* box 1 is for comments */
+#box1 {
+    padding: 5px;
+}
+
+#article h2 {
+	margin-top: 10px;
+	font: Bold 140% Arial;
+	padding: 10px 0 5px 0; 	
+	border-bottom: 1px solid #EFF0F1;
+}
+
+#article h2  a{
+	color: #31576F;
+    text-decoration: none;
+}
+
+/* article */
+#article p {
+	padding: 0; margin: 5px 0 0 25px;
+}
+
+/* footer */
+.post-footer {
+	background-color: #FAFAFA;
+	padding: 5px; margin: 20px 10px 10px 10px;
+	border: 1px solid #f2f2f2;
+	font-size: 95%;	
+}
+
+/* article footer */
+.post-footer .author {
+	background: url(../images/Default/author.png) no-repeat left center;
+	padding-left: 20px; margin: 0 10px 0 5px;
+}
+.post-footer .date {
+	background: url(../images/Default/clock.png) no-repeat left center;
+	padding-left: 20px; margin: 0 10px 0 5px;
+}
+.post-footer .comments {
+	background: url(../images/Default/comment.png) no-repeat left center;
+	padding-left: 20px; margin: 0 10px 0 5px;
+}
+.post-footer .readmore {
+	background: url(../images/Default/page.png) no-repeat left center;
+	padding-left: 20px; margin: 0 10px 0 5px;
+}
+
+/** select box */
+#position {
+	border: solid 1px #CCCCCC;
+	width: 50px;
+}

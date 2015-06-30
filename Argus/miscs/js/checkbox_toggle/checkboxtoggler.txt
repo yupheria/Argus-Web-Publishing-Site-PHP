@@ -1,0 +1,7 @@
+required:
+
+checkboxes should be inside a FORM and the id should 'form_id'
+
+function:
+
+onClick='toggleCheckBoxes(\"issueIds\")'
